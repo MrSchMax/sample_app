@@ -16,12 +16,13 @@ group :test do
 end
 
 gem 'sass-rails', '4.0.0'
-gem 'haml-rails'
+gem 'slim-rails'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
+gem 'temple', '0.6.6'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
