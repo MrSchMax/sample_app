@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
@@ -21,6 +21,9 @@ group :test do
   gem 'capybara', '2.1.0'
   gem 'growl'
   gem 'factory_girl_rails'
+  gem 'launchy'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'sass-rails', '4.0.0'
